@@ -33,7 +33,7 @@ function menuMaker(linksArray){
   return menuWrapper;
 }
 
-console.log(menuMaker(menuItems));
+// console.log(menuMaker(menuItems));
 
 const newMenu = menuMaker(menuItems);
 const headerElement = document.querySelector('.header');
